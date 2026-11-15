@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 880" width="1280" height="880" style="background:#0f172a; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <linearGradient id="detailGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Global Header -->
+  <rect x="0" y="0" width="1280" height="70" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <rect x="40" y="18" width="34" height="34" rx="8" fill="url(#orangeGrad)" />
+  <text x="57" y="41" fill="#ffffff" font-size="20" font-weight="bold" text-anchor="middle">3S</text>
+  <text x="86" y="41" fill="#ffffff" font-size="20" font-weight="bold">3SAJ<tspan fill="#f97316">STREAM</tspan></text>
+  <text x="260" y="42" fill="#94a3b8" font-size="14">Home</text>
+  <text x="330" y="42" fill="#f97316" font-size="14" font-weight="600">Browse</text>
+  <text x="410" y="42" fill="#94a3b8" font-size="14">Watchlist</text>
+  <text x="495" y="42" fill="#94a3b8" font-size="14">Admin Portal</text>
+  <circle cx="1165" cy="35" r="18" fill="#f97316" />
+  <text x="1165" y="41" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">KM</text>
+
+  <!-- Series Hero Header -->
+  <g transform="translate(40, 95)">
+    <!-- Backdrop Blur Container -->
+    <rect x="0" y="0" width="1200" height="290" rx="16" fill="url(#detailGrad)" stroke="#334155" stroke-width="1.5" />
+    
+    <!-- Big Poster -->
+    <rect x="25" y="25" width="170" height="240" rx="10" fill="#334155" stroke="#475569" stroke-width="1.5" stroke-dasharray="4" />
+    <text x="110" y="145" fill="#94a3b8" font-size="14" text-anchor="middle">[ Series Poster ]</text>
+    <text x="110" y="165" fill="#64748b" font-size="11" text-anchor="middle">450 x 640 px</text>
+
+    <!-- Series Meta -->
+    <text x="225" y="55" fill="#ffffff" font-size="30" font-weight="bold">Chrono Blades: Cyber Awakening</text>
+    
+    <!-- Badges Row -->
+    <g transform="translate(225, 75)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#334155" />
+      <text x="30" y="15" fill="#f97316" font-size="11" font-weight="bold" text-anchor="middle">2026</text>
+      
+      <rect x="70" y="0" width="70" height="22" rx="4" fill="#334155" />
+      <text x="105" y="15" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">PG-13</text>
+
+      <rect x="150" y="0" width="60" height="22" rx="4" fill="#334155" />
+      <text x="180" y="15" fill="#a855f7" font-size="11" font-weight="bold" text-anchor="middle">HD</text>
+
+      <text x="230" y="16" fill="#94a3b8" font-size="13">2 Seasons • 24 Episodes Total • Studio Nexus</text>
+    </g>
+
+    <!-- Genre Tags -->
+    <g transform="translate(225, 115)">
+      <rect x="0" y="0" width="75" height="24" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="37" y="16" fill="#cbd5e1" font-size="11" text-anchor="middle">Cyberpunk</text>
+
+      <rect x="85" y="0" width="65" height="24" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="117" y="16" fill="#cbd5e1" font-size="11" text-anchor="middle">Action</text>
+
+      <rect x="160" y="0" width="65" height="24" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="192" y="16" fill="#cbd5e1" font-size="11" text-anchor="middle">Sci-Fi</text>
+    </g>
+
+    <!-- Synopsis -->
+    <text x="225" y="170" fill="#cbd5e1" font-size="14">
+      In year 2088 Neo-Tokyo, rogue artificial intelligence factions threaten to fracture the timeline matrix.
+    </text>
+    <text x="225" y="192" fill="#cbd5e1" font-size="14">
+      Ryu and his squad of chrono-blade wielders embark on clandestine operations to neutralize paradox rifts.
+    </text>
+
+    <!-- Action Buttons -->
+    <g transform="translate(225, 222)">
+      <!-- Play Ep 1 -->
+      <rect x="0" y="0" width="160" height="42" rx="8" fill="url(#orangeGrad)" />
+      <polygon points="25,15 25,27 36,21" fill="#ffffff" />
+      <text x="88" y="26" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">Play Episode 1</text>
+
+      <!-- Watchlist CTA -->
+      <rect x="175" y="0" width="180" height="42" rx="8" fill="#1e293b" stroke="#f97316" stroke-width="1.5" />
+      <path d="M 195 13 L 205 13 L 205 29 L 200 25 L 195 29 Z" fill="#f97316" />
+      <text x="270" y="26" fill="#ffffff" font-size="14" font-weight="600" text-anchor="middle">In Watchlist (Saved)</text>
+    </g>
+  </g>
+
+  <!-- Seasons Navigation Tabs -->
+  <g transform="translate(40, 410)">
+    <text x="0" y="22" fill="#ffffff" font-size="20" font-weight="bold">Episodes</text>
+    
+    <!-- Active Season Tab -->
+    <rect x="120" y="0" width="130" height="34" rx="6" fill="#f97316" />
+    <text x="185" y="22" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">Season 1 (12)</text>
+
+    <!-- Inactive Season Tab -->
+    <rect x="260" y="0" width="130" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="325" y="22" fill="#94a3b8" font-size="13" font-weight="500" text-anchor="middle">Season 2 (12)</text>
+
+    <text x="1100" y="22" fill="#94a3b8" font-size="13">Sort: Oldest to Newest</text>
+  </g>
+
+  <!-- Episode List (FR-4, FR-12) -->
+  <g transform="translate(40, 465)">
+    <!-- Episode Card 1 -->
+    <rect x="0" y="0" width="1200" height="85" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="15" y="10" width="115" height="65" rx="6" fill="#334155" stroke="#475569" stroke-dasharray="2" />
+    <text x="72" y="47" fill="#94a3b8" font-size="11" text-anchor="middle">Thumb E01</text>
+    <text x="145" y="32" fill="#f97316" font-size="12" font-weight="bold">E1 • 24m</text>
+    <text x="145" y="52" fill="#ffffff" font-size="15" font-weight="bold">The Neon Paradox</text>
+    <text x="145" y="70" fill="#94a3b8" font-size="12">Ryu awakens in Sector 7 and discovers the first glitch in the chronological stream.</text>
+    <rect x="1100" y="26" width="80" height="32" rx="6" fill="url(#orangeGrad)" />
+    <text x="1140" y="47" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">Play</text>
+
+    <!-- Episode Card 2 -->
+    <rect x="0" y="95" width="1200" height="85" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="15" y="105" width="115" height="65" rx="6" fill="#334155" stroke="#475569" stroke-dasharray="2" />
+    <text x="72" y="142" fill="#94a3b8" font-size="11" text-anchor="middle">Thumb E02</text>
+    <text x="145" y="127" fill="#f97316" font-size="12" font-weight="bold">E2 • 23m</text>
+    <text x="145" y="147" fill="#ffffff" font-size="15" font-weight="bold">Blade of Singularity</text>
+    <text x="145" y="165" fill="#94a3b8" font-size="12">The resistance squad infiltrates the central cyber core to extract the temporal stabilizer.</text>
+    <rect x="1100" y="121" width="80" height="32" rx="6" fill="#334155" stroke="#475569" stroke-width="1" />
+    <text x="1140" y="142" fill="#e2e8f0" font-size="12" font-weight="bold" text-anchor="middle">Play</text>
+
+    <!-- Episode Card 3 -->
+    <rect x="0" y="190" width="1200" height="85" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="15" y="200" width="115" height="65" rx="6" fill="#334155" stroke="#475569" stroke-dasharray="2" />
+    <text x="72" y="237" fill="#94a3b8" font-size="11" text-anchor="middle">Thumb E03</text>
+    <text x="145" y="222" fill="#f97316" font-size="12" font-weight="bold">E3 • 24m</text>
+    <text x="145" y="242" fill="#ffffff" font-size="15" font-weight="bold">Echoes from the Ruins</text>
+    <text x="145" y="260" fill="#94a3b8" font-size="12">An unexpected transmission reveals the identity of the rogue quantum mastermind.</text>
+    <rect x="1100" y="216" width="80" height="32" rx="6" fill="#334155" stroke="#475569" stroke-width="1" />
+    <text x="1140" y="237" fill="#e2e8f0" font-size="12" font-weight="bold" text-anchor="middle">Play</text>
+
+    <!-- Episode Card 4 -->
+    <rect x="0" y="285" width="1200" height="85" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="15" y="295" width="115" height="65" rx="6" fill="#334155" stroke="#475569" stroke-dasharray="2" />
+    <text x="72" y="332" fill="#94a3b8" font-size="11" text-anchor="middle">Thumb E04</text>
+    <text x="145" y="317" fill="#f97316" font-size="12" font-weight="bold">E4 • 25m</text>
+    <text x="145" y="337" fill="#ffffff" font-size="15" font-weight="bold">Shadows Over Sector 9</text>
+    <text x="145" y="355" fill="#94a3b8" font-size="12">A dangerous ambush traps the crew behind enemy shields during a blackout.</text>
+    <rect x="1100" y="311" width="80" height="32" rx="6" fill="#334155" stroke="#475569" stroke-width="1" />
+    <text x="1140" y="332" fill="#e2e8f0" font-size="12" font-weight="bold" text-anchor="middle">Play</text>
+  </g>
+
+  <!-- Wireframe Annotation Badge -->
+  <rect x="1080" y="845" width="180" height="26" rx="4" fill="#334155" />
+  <text x="1170" y="862" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">WIREFRAME: SERIES DETAIL (FR-4)</text>
+</svg>

@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 880" width="1280" height="880" style="background:#0f172a; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="adminSidebar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Global Header -->
+  <rect x="0" y="0" width="1280" height="70" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <rect x="40" y="18" width="34" height="34" rx="8" fill="url(#orangeGrad)" />
+  <text x="57" y="41" fill="#ffffff" font-size="20" font-weight="bold" text-anchor="middle">3S</text>
+  <text x="86" y="41" fill="#ffffff" font-size="20" font-weight="bold">3SAJ<tspan fill="#f97316">STREAM</tspan></text>
+  
+  <!-- Breadcrumb -->
+  <text x="260" y="42" fill="#cbd5e1" font-size="14">Admin Console</text>
+  <text x="365" y="42" fill="#94a3b8" font-size="14">/</text>
+  <text x="380" y="42" fill="#f97316" font-size="14" font-weight="bold">Content Management</text>
+
+  <!-- Role Badge -->
+  <rect x="1080" y="20" width="160" height="30" rx="15" fill="#ea580c" fill-opacity="0.2" stroke="#ea580c" stroke-width="1" />
+  <circle cx="1098" cy="35" r="5" fill="#22c55e" />
+  <text x="1112" y="40" fill="#f97316" font-size="12" font-weight="bold">Role: Administrator</text>
+
+  <!-- Admin Sidebar (240px wide) -->
+  <g transform="translate(0, 70)">
+    <rect x="0" y="0" width="240" height="810" fill="url(#adminSidebar)" stroke="#334155" stroke-width="1" />
+    
+    <!-- Sidebar Items -->
+    <g transform="translate(20, 30)">
+      <text x="0" y="0" fill="#64748b" font-size="11" font-weight="bold">MANAGEMENT</text>
+      
+      <!-- Nav Item 1 Active -->
+      <rect x="0" y="15" width="200" height="40" rx="8" fill="#334155" />
+      <text x="40" y="40" fill="#ffffff" font-size="13" font-weight="bold">Series & Catalogue</text>
+
+      <!-- Nav Item 2 -->
+      <text x="40" y="85" fill="#94a3b8" font-size="13">Episode Media Ingest</text>
+
+      <!-- Nav Item 3 -->
+      <text x="40" y="130" fill="#94a3b8" font-size="13">Transcoding Queue (3)</text>
+
+      <!-- Nav Item 4 -->
+      <text x="40" y="175" fill="#94a3b8" font-size="13">Subtitle Manager</text>
+
+      <text x="0" y="230" fill="#64748b" font-size="11" font-weight="bold">SYSTEM SETTINGS</text>
+      <text x="40" y="260" fill="#94a3b8" font-size="13">Storage & Backups</text>
+      <text x="40" y="300" fill="#94a3b8" font-size="13">User Accounts</text>
+    </g>
+  </g>
+
+  <!-- Admin Main Working Area -->
+  <g transform="translate(265, 95)">
+    <!-- Metrics Cards Row -->
+    <g transform="translate(0, 0)">
+      <!-- Metric 1 -->
+      <rect x="0" y="0" width="225" height="80" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="18" y="28" fill="#94a3b8" font-size="12">Total Active Series</text>
+      <text x="18" y="60" fill="#ffffff" font-size="24" font-weight="bold">18 Titles</text>
+
+      <!-- Metric 2 -->
+      <rect x="245" y="0" width="225" height="80" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="263" y="28" fill="#94a3b8" font-size="12">Transcoded Episodes</text>
+      <text x="263" y="60" fill="#ffffff" font-size="24" font-weight="bold">142 Videos</text>
+
+      <!-- Metric 3 -->
+      <rect x="490" y="0" width="225" height="80" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="508" y="28" fill="#94a3b8" font-size="12">Active Transcoding Jobs</text>
+      <text x="508" y="60" fill="#38bdf8" font-size="24" font-weight="bold">1 Encoding</text>
+
+      <!-- Metric 4 -->
+      <rect x="735" y="0" width="240" height="80" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="753" y="28" fill="#94a3b8" font-size="12">Failed Transcoding Alerts</text>
+      <text x="753" y="60" fill="#ef4444" font-size="24" font-weight="bold">1 Failed (Retryable)</text>
+    </g>
+
+    <!-- Top Action Toolbar -->
+    <g transform="translate(0, 105)">
+      <text x="0" y="25" fill="#ffffff" font-size="18" font-weight="bold">Anime Series Management</text>
+      
+      <!-- Add Series Button -->
+      <rect x="835" y="0" width="140" height="36" rx="6" fill="url(#orangeGrad)" />
+      <text x="905" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">+ Add New Series</text>
+    </g>
+
+    <!-- Series Management Table (FR-11, FR-12) -->
+    <g transform="translate(0, 155)">
+      <rect x="0" y="0" width="975" height="240" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      
+      <!-- Table Header -->
+      <rect x="0" y="0" width="975" height="40" rx="8" fill="#0f172a" />
+      <text x="20" y="25" fill="#94a3b8" font-size="12" font-weight="bold">SERIES TITLE</text>
+      <text x="270" y="25" fill="#94a3b8" font-size="12" font-weight="bold">GENRES</text>
+      <text x="440" y="25" fill="#94a3b8" font-size="12" font-weight="bold">YEAR</text>
+      <text x="520" y="25" fill="#94a3b8" font-size="12" font-weight="bold">SEASONS/EPISODES</text>
+      <text x="720" y="25" fill="#94a3b8" font-size="12" font-weight="bold">STATUS</text>
+      <text x="850" y="25" fill="#94a3b8" font-size="12" font-weight="bold">ACTIONS</text>
+
+      <!-- Row 1 -->
+      <line x1="0" y1="40" x2="975" y2="40" stroke="#334155" />
+      <text x="20" y="70" fill="#ffffff" font-size="13" font-weight="bold">Chrono Blades</text>
+      <text x="270" y="70" fill="#cbd5e1" font-size="12">Action, Sci-Fi</text>
+      <text x="440" y="70" fill="#cbd5e1" font-size="12">2026</text>
+      <text x="520" y="70" fill="#cbd5e1" font-size="12">2 Seasons (24 Ep)</text>
+      <rect x="720" y="55" width="65" height="22" rx="4" fill="#22c55e" fill-opacity="0.2" />
+      <text x="752" y="70" fill="#22c55e" font-size="11" font-weight="bold" text-anchor="middle">Published</text>
+      <text x="850" y="70" fill="#38bdf8" font-size="12">Edit</text>
+      <text x="890" y="70" fill="#ef4444" font-size="12">Delete</text>
+      <text x="940" y="70" fill="#f97316" font-size="12">+Ep</text>
+
+      <!-- Row 2 -->
+      <line x1="0" y1="90" x2="975" y2="90" stroke="#334155" />
+      <text x="20" y="120" fill="#ffffff" font-size="13" font-weight="bold">The Last Sorcerer</text>
+      <text x="270" y="120" fill="#cbd5e1" font-size="12">Fantasy, Magic</text>
+      <text x="440" y="120" fill="#cbd5e1" font-size="12">2025</text>
+      <text x="520" y="120" fill="#cbd5e1" font-size="12">1 Season (12 Ep)</text>
+      <rect x="720" y="105" width="65" height="22" rx="4" fill="#22c55e" fill-opacity="0.2" />
+      <text x="752" y="120" fill="#22c55e" font-size="11" font-weight="bold" text-anchor="middle">Published</text>
+      <text x="850" y="120" fill="#38bdf8" font-size="12">Edit</text>
+      <text x="890" y="120" fill="#ef4444" font-size="12">Delete</text>
+      <text x="940" y="120" fill="#f97316" font-size="12">+Ep</text>
+
+      <!-- Row 3 -->
+      <line x1="0" y1="140" x2="975" y2="140" stroke="#334155" />
+      <text x="20" y="170" fill="#ffffff" font-size="13" font-weight="bold">Neo Tokyo Express</text>
+      <text x="270" y="170" fill="#cbd5e1" font-size="12">Cyberpunk</text>
+      <text x="440" y="170" fill="#cbd5e1" font-size="12">2026</text>
+      <text x="520" y="170" fill="#cbd5e1" font-size="12">1 Season (18 Ep)</text>
+      <rect x="720" y="155" width="65" height="22" rx="4" fill="#22c55e" fill-opacity="0.2" />
+      <text x="752" y="170" fill="#22c55e" font-size="11" font-weight="bold" text-anchor="middle">Published</text>
+      <text x="850" y="170" fill="#38bdf8" font-size="12">Edit</text>
+      <text x="890" y="170" fill="#ef4444" font-size="12">Delete</text>
+      <text x="940" y="170" fill="#f97316" font-size="12">+Ep</text>
+    </g>
+
+    <!-- Transcoding Worker Queue Section (FR-13, FR-14, FR-15, FR-17) -->
+    <g transform="translate(0, 420)">
+      <text x="0" y="25" fill="#ffffff" font-size="18" font-weight="bold">Transcoding Worker Tasks &amp; Ingestion</text>
+      
+      <!-- Upload Episode Quick Form Button -->
+      <rect x="815" y="0" width="160" height="36" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="895" y="23" fill="#38bdf8" font-size="13" font-weight="bold" text-anchor="middle">Upload MP4 &amp; VTT</text>
+
+      <!-- Transcoding Table -->
+      <g transform="translate(0, 45)">
+        <rect x="0" y="0" width="975" height="240" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        
+        <!-- Header -->
+        <rect x="0" y="0" width="975" height="40" rx="8" fill="#0f172a" />
+        <text x="20" y="25" fill="#94a3b8" font-size="12" font-weight="bold">JOB ID / EPISODE</text>
+        <text x="240" y="25" fill="#94a3b8" font-size="12" font-weight="bold">FILE FORMAT / SIZE</text>
+        <text x="440" y="25" fill="#94a3b8" font-size="12" font-weight="bold">SUBTITLE TRACKS</text>
+        <text x="630" y="25" fill="#94a3b8" font-size="12" font-weight="bold">TRANSCODING STATUS</text>
+        <text x="850" y="25" fill="#94a3b8" font-size="12" font-weight="bold">ACTION</text>
+
+        <!-- Job 1: In Progress -->
+        <line x1="0" y1="40" x2="975" y2="40" stroke="#334155" />
+        <text x="20" y="70" fill="#ffffff" font-size="13" font-weight="bold">JOB-9042 • Chrono Blades E13</text>
+        <text x="240" y="70" fill="#cbd5e1" font-size="12">MP4 (1080p source) • 840 MB</text>
+        <text x="440" y="70" fill="#cbd5e1" font-size="12">English.vtt, Japanese.vtt</text>
+        <!-- Status: Converting (68%) -->
+        <rect x="630" y="55" width="160" height="24" rx="4" fill="#0284c7" fill-opacity="0.2" />
+        <text x="710" y="71" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">Processing FFmpeg (68%)</text>
+        <text x="850" y="70" fill="#64748b" font-size="12">Cancel</text>
+
+        <!-- Job 2: Failed with Retry Button (FR-17) -->
+        <line x1="0" y1="90" x2="975" y2="90" stroke="#334155" />
+        <text x="20" y="120" fill="#ffffff" font-size="13" font-weight="bold">JOB-9041 • Last Sorcerer E05</text>
+        <text x="240" y="120" fill="#cbd5e1" font-size="12">MP4 (Corrupt audio stream) • 610 MB</text>
+        <text x="440" y="120" fill="#cbd5e1" font-size="12">English.vtt</text>
+        <!-- Status: Failed -->
+        <rect x="630" y="105" width="130" height="24" rx="4" fill="#ef4444" fill-opacity="0.2" />
+        <text x="695" y="121" fill="#ef4444" font-size="11" font-weight="bold" text-anchor="middle">Transcoding Failed</text>
+        <!-- Retry CTA (FR-17) -->
+        <rect x="850" y="105" width="100" height="24" rx="4" fill="#ea580c" />
+        <text x="900" y="121" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Retry Job ↺</text>
+
+        <!-- Job 3: Ready -->
+        <line x1="0" y1="140" x2="975" y2="140" stroke="#334155" />
+        <text x="20" y="170" fill="#ffffff" font-size="13" font-weight="bold">JOB-9040 • Chrono Blades E12</text>
+        <text x="240" y="170" fill="#cbd5e1" font-size="12">MP4 (H.264/AAC) • 750 MB</text>
+        <text x="440" y="170" fill="#cbd5e1" font-size="12">English.vtt, Japanese.vtt, Spanish.vtt</text>
+        <!-- Status: Ready with thumbnail -->
+        <rect x="630" y="155" width="140" height="24" rx="4" fill="#22c55e" fill-opacity="0.2" />
+        <text x="700" y="171" fill="#22c55e" font-size="11" font-weight="bold" text-anchor="middle">Ready (Thumbnail Extracted)</text>
+        <text x="850" y="170" fill="#38bdf8" font-size="12">Preview</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Wireframe Annotation Badge -->
+  <rect x="1040" y="845" width="220" height="26" rx="4" fill="#334155" />
+  <text x="1150" y="862" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">WIREFRAME: ADMIN CONSOLE (FR-11..17)</text>
+</svg>

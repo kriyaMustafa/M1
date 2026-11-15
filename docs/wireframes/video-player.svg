@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 880" width="1280" height="880" style="background:#090d16; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <linearGradient id="playerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="overlayGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#000000" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Player Navigation Bar / Back button -->
+  <rect x="0" y="0" width="1280" height="60" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+  <g transform="translate(30, 18)">
+    <polygon points="12,12 20,4 20,20" fill="#f97316" />
+    <text x="30" y="16" fill="#ffffff" font-size="14" font-weight="bold">Back to Chrono Blades</text>
+    <text x="210" y="16" fill="#94a3b8" font-size="13">|   Season 1 • Episode 12: "The Singularity Paradox"</text>
+  </g>
+
+  <!-- Main Viewport Layout: Player (Left/Center) + Next Up Playlist (Right) -->
+  
+  <!-- 1. Video Canvas Frame (16:9 ratio) -->
+  <g transform="translate(30, 80)">
+    <rect x="0" y="0" width="880" height="495" rx="12" fill="url(#playerGrad)" stroke="#334155" stroke-width="2" />
+    
+    <!-- Video Watermark / Anime Canvas placeholder -->
+    <text x="440" y="220" fill="#334155" font-size="28" font-weight="bold" text-anchor="middle">VIDEO STREAM PLAYBACK CANVAS (1080p)</text>
+    <text x="440" y="250" fill="#475569" font-size="14" text-anchor="middle">HTML5 Video Engine • Buffered: 98% • Bitrate: 4500 kbps</text>
+
+    <!-- Subtitle Overlay Simulation (FR-7) -->
+    <rect x="240" y="380" width="400" height="34" rx="4" fill="#000000" fill-opacity="0.75" />
+    <text x="440" y="403" fill="#ffffff" font-size="15" font-weight="500" text-anchor="middle">"We cannot allow the timeline core to destabilize!"</text>
+    <text x="440" y="430" fill="#38bdf8" font-size="10" text-anchor="middle">[ Active Track: English (WebVTT) ]</text>
+
+    <!-- Bottom Controls Overlay Gradient -->
+    <rect x="0" y="395" width="880" height="100" rx="12" fill="url(#overlayGrad)" />
+
+    <!-- Timeline Scrubber Bar (FR-6) -->
+    <g transform="translate(20, 435)">
+      <!-- Track Background -->
+      <rect x="0" y="0" width="840" height="6" rx="3" fill="#475569" fill-opacity="0.8" />
+      <!-- Buffered Track -->
+      <rect x="0" y="0" width="620" height="6" rx="3" fill="#64748b" />
+      <!-- Played Track (Resume position 14:20 / 23:45) -->
+      <rect x="0" y="0" width="510" height="6" rx="3" fill="#f97316" />
+      <!-- Scrubber Thumb Indicator -->
+      <circle cx="510" cy="3" r="7" fill="#ffffff" stroke="#f97316" stroke-width="2" />
+    </g>
+
+    <!-- Control Buttons Row -->
+    <g transform="translate(20, 452)">
+      <!-- Play/Pause Button -->
+      <circle cx="16" cy="18" r="16" fill="url(#orangeGrad)" />
+      <polygon points="12,12 12,24 23,18" fill="#ffffff" />
+
+      <!-- Skip -10s -->
+      <rect x="44" y="5" width="30" height="26" rx="4" fill="#1e293b" />
+      <text x="59" y="22" fill="#e2e8f0" font-size="11" text-anchor="middle">-10s</text>
+
+      <!-- Skip +10s -->
+      <rect x="80" y="5" width="30" height="26" rx="4" fill="#1e293b" />
+      <text x="95" y="22" fill="#e2e8f0" font-size="11" text-anchor="middle">+10s</text>
+
+      <!-- Volume Icon & Slider -->
+      <path d="M 125 14 L 132 14 L 140 8 L 140 28 L 132 22 L 125 22 Z" fill="#cbd5e1" />
+      <rect x="148" y="16" width="60" height="4" rx="2" fill="#475569" />
+      <rect x="148" y="16" width="45" height="4" rx="2" fill="#ffffff" />
+      <circle cx="193" cy="18" r="5" fill="#ffffff" />
+
+      <!-- Timestamp Display -->
+      <text x="225" y="22" fill="#ffffff" font-size="13" font-family="monospace">14:20 / 23:45</text>
+
+      <!-- Right Aligned Player Tools -->
+      <!-- Subtitles CC Button & Popover (FR-7) -->
+      <g transform="translate(640, 0)">
+        <rect x="0" y="4" width="48" height="28" rx="6" fill="#f97316" />
+        <text x="24" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">CC</text>
+        
+        <!-- Subtitle Popup Menu Wireframe -->
+        <g transform="translate(-60, -170)">
+          <rect x="0" y="0" width="165" height="160" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1.5" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.5))" />
+          <text x="15" y="24" fill="#94a3b8" font-size="11" font-weight="bold">SUBTITLE TRACKS</text>
+          
+          <rect x="10" y="34" width="145" height="26" rx="4" fill="#334155" />
+          <text x="25" y="51" fill="#f97316" font-size="12" font-weight="bold">✓ English (WebVTT)</text>
+          
+          <text x="25" y="78" fill="#cbd5e1" font-size="12">Japanese (Original)</text>
+          <text x="25" y="105" fill="#cbd5e1" font-size="12">Spanish (WebVTT)</text>
+          <text x="25" y="132" fill="#cbd5e1" font-size="12">Subtitles Off</text>
+          
+          <!-- Small arrow pointing down -->
+          <polygon points="75,160 85,160 80,167" fill="#1e293b" />
+        </g>
+      </g>
+
+      <!-- Quality Toggle (1080p) -->
+      <rect x="700" y="4" width="56" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="728" y="22" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">1080p</text>
+
+      <!-- Next Episode Quick Action -->
+      <rect x="765" y="4" width="44" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <polygon points="780,12 780,24 792,18" fill="#e2e8f0" />
+      <line x1="794" y1="12" x2="794" y2="24" stroke="#e2e8f0" stroke-width="2" />
+
+      <!-- Fullscreen Toggle -->
+      <rect x="818" y="4" width="34" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <path d="M 825 11 L 830 11 M 825 11 L 825 16 M 845 11 L 840 11 M 845 11 L 845 16 M 825 25 L 830 25 M 825 25 L 825 20 M 845 25 L 840 25 M 845 25 L 845 20" stroke="#ffffff" stroke-width="2" />
+    </g>
+  </g>
+
+  <!-- 2. Episode Playlist / Next Up Column (Right Side) -->
+  <g transform="translate(930, 80)">
+    <rect x="0" y="0" width="320" height="495" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="20" y="32" fill="#ffffff" font-size="16" font-weight="bold">Episodes in Season 1</text>
+    <text x="20" y="50" fill="#94a3b8" font-size="12">Auto-play next episode enabled</text>
+
+    <!-- Playlist Item 1 (Now Playing) -->
+    <rect x="15" y="65" width="290" height="70" rx="8" fill="#334155" stroke="#f97316" stroke-width="1.5" />
+    <rect x="25" y="75" width="70" height="50" rx="4" fill="#0f172a" />
+    <text x="60" y="104" fill="#f97316" font-size="11" font-weight="bold" text-anchor="middle">NOW</text>
+    <text x="105" y="93" fill="#ffffff" font-size="13" font-weight="bold">Ep 12: The Paradox</text>
+    <text x="105" y="112" fill="#f97316" font-size="11">Resumed at 14:20</text>
+
+    <!-- Playlist Item 2 (Up Next) -->
+    <rect x="15" y="145" width="290" height="70" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <rect x="25" y="155" width="70" height="50" rx="4" fill="#1e293b" />
+    <text x="60" y="184" fill="#94a3b8" font-size="10" text-anchor="middle">E13</text>
+    <text x="105" y="173" fill="#e2e8f0" font-size="13" font-weight="600">Ep 13: Neon Horizon</text>
+    <text x="105" y="192" fill="#64748b" font-size="11">24m • Season Finale</text>
+
+    <!-- Playlist Item 3 -->
+    <rect x="15" y="225" width="290" height="70" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <rect x="25" y="235" width="70" height="50" rx="4" fill="#1e293b" />
+    <text x="60" y="264" fill="#94a3b8" font-size="10" text-anchor="middle">E14</text>
+    <text x="105" y="253" fill="#e2e8f0" font-size="13" font-weight="600">Ep 14: S2 Prologue</text>
+    <text x="105" y="272" fill="#64748b" font-size="11">Special OVA</text>
+  </g>
+
+  <!-- Episode Details & Commentary Section (Below Player) -->
+  <g transform="translate(30, 600)">
+    <text x="0" y="25" fill="#ffffff" font-size="22" font-weight="bold">Episode 12 — The Singularity Paradox</text>
+    <text x="0" y="50" fill="#94a3b8" font-size="14">Aired Oct 2026 • 23 min • Chrono Blades Season 1</text>
+    
+    <text x="0" y="85" fill="#cbd5e1" font-size="14">
+      Ryu and Maya activate the chroniton core before the AI construct completely locks out human authority.
+    </text>
+    <text x="0" y="108" fill="#cbd5e1" font-size="14">
+      As temporal anomalies cascade across Neo-Tokyo, a shocking alliance is forged to protect the timeline.
+    </text>
+
+    <!-- Member Interaction Badges -->
+    <g transform="translate(0, 135)">
+      <rect x="0" y="0" width="120" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="60" y="22" fill="#e2e8f0" font-size="13" text-anchor="middle">★ In Watchlist</text>
+
+      <rect x="135" y="0" width="110" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="190" y="22" fill="#e2e8f0" font-size="13" text-anchor="middle">Share Link</text>
+    </g>
+  </g>
+
+  <!-- Wireframe Annotation Badge -->
+  <rect x="1060" y="845" width="200" height="26" rx="4" fill="#334155" />
+  <text x="1160" y="862" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">WIREFRAME: VIDEO PLAYER (FR-6,7,8)</text>
+</svg>

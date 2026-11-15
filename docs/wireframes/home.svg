@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 880" width="1280" height="880" style="background:#0f172a; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Global Wireframe Header -->
+  <rect x="0" y="0" width="1280" height="70" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  
+  <!-- Logo -->
+  <rect x="40" y="18" width="34" height="34" rx="8" fill="url(#orangeGrad)" />
+  <text x="57" y="41" fill="#ffffff" font-size="20" font-weight="bold" text-anchor="middle">3S</text>
+  <text x="86" y="41" fill="#ffffff" font-size="20" font-weight="bold">3SAJ<tspan fill="#f97316">STREAM</tspan></text>
+  
+  <!-- Navigation Links -->
+  <text x="260" y="42" fill="#f97316" font-size="14" font-weight="600">Home</text>
+  <text x="330" y="42" fill="#94a3b8" font-size="14">Browse</text>
+  <text x="410" y="42" fill="#94a3b8" font-size="14">Watchlist</text>
+  <text x="495" y="42" fill="#94a3b8" font-size="14">Admin Portal</text>
+  
+  <!-- Search Input Bar -->
+  <rect x="630" y="17" width="380" height="36" rx="18" fill="#0f172a" stroke="#475569" stroke-width="1" />
+  <circle cx="655" cy="35" r="6" fill="none" stroke="#94a3b8" stroke-width="2" />
+  <line x1="660" y1="39" x2="667" y2="46" stroke="#94a3b8" stroke-width="2" />
+  <text x="675" y="40" fill="#64748b" font-size="13">Search anime titles, genres...</text>
+  
+  <!-- User Profile / Role Badge -->
+  <rect x="1040" y="19" width="90" height="32" rx="16" fill="#334155" />
+  <text x="1085" y="40" fill="#e2e8f0" font-size="12" font-weight="600" text-anchor="middle">Member</text>
+  <circle cx="1165" cy="35" r="18" fill="#f97316" />
+  <text x="1165" y="41" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">KM</text>
+
+  <!-- Wireframe Main Content Area -->
+  <!-- Featured Hero Banner Section -->
+  <g transform="translate(40, 95)">
+    <rect x="0" y="0" width="1200" height="280" rx="16" fill="url(#heroGrad)" stroke="#334155" stroke-width="1.5" />
+    
+    <!-- Hero Poster Placeholder -->
+    <rect x="25" y="25" width="160" height="230" rx="10" fill="#334155" stroke="#475569" stroke-dasharray="4" />
+    <text x="105" y="145" fill="#94a3b8" font-size="13" text-anchor="middle">[ Featured Poster ]</text>
+    
+    <!-- Hero Details -->
+    <rect x="215" y="35" width="80" height="22" rx="4" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1" />
+    <text x="255" y="50" fill="#f97316" font-size="11" font-weight="bold" text-anchor="middle">FEATURED</text>
+    
+    <text x="215" y="95" fill="#ffffff" font-size="28" font-weight="bold">Chrono Blades: Cyber Awakening</text>
+    <text x="215" y="125" fill="#94a3b8" font-size="13">2026 • 24 Episodes • Action / Sci-Fi / Cyberpunk • Sub | Dub</text>
+    
+    <text x="215" y="160" fill="#cbd5e1" font-size="14" width="700">
+      In a dystopian neo-metropolis, elite operatives wield quantum temporal blades to prevent timeline collapses.
+    </text>
+    <text x="215" y="180" fill="#cbd5e1" font-size="14">
+      Watch Episode 12 freshly transcoded in 1080p with multi-language WebVTT subtitles.
+    </text>
+    
+    <!-- Hero CTAs -->
+    <rect x="215" y="210" width="150" height="42" rx="8" fill="url(#orangeGrad)" />
+    <polygon points="238,225 238,237 249,231" fill="#ffffff" />
+    <text x="288" y="236" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">Watch Ep 1</text>
+    
+    <rect x="380" y="210" width="170" height="42" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="465" y="236" fill="#e2e8f0" font-size="14" font-weight="500" text-anchor="middle">+ Add to Watchlist</text>
+  </g>
+
+  <!-- Genre Filter Chips -->
+  <g transform="translate(40, 400)">
+    <text x="0" y="18" fill="#ffffff" font-size="16" font-weight="bold">Filter by Genre:</text>
+    
+    <rect x="140" y="0" width="60" height="28" rx="14" fill="#f97316" />
+    <text x="170" y="18" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">All</text>
+    
+    <rect x="210" y="0" width="80" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="250" y="18" fill="#94a3b8" font-size="12" text-anchor="middle">Action</text>
+    
+    <rect x="300" y="0" width="80" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="340" y="18" fill="#94a3b8" font-size="12" text-anchor="middle">Sci-Fi</text>
+    
+    <rect x="390" y="0" width="85" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="432" y="18" fill="#94a3b8" font-size="12" text-anchor="middle">Fantasy</text>
+    
+    <rect x="485" y="0" width="80" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="525" y="18" fill="#94a3b8" font-size="12" text-anchor="middle">Shonen</text>
+    
+    <rect x="575" y="0" width="110" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="630" y="18" fill="#94a3b8" font-size="12" text-anchor="middle">Slice of Life</text>
+  </g>
+
+  <!-- Continue Watching Row (Member Feature FR-10) -->
+  <g transform="translate(40, 455)">
+    <text x="0" y="18" fill="#ffffff" font-size="18" font-weight="bold">Continue Watching</text>
+    <text x="1150" y="18" fill="#f97316" font-size="13" font-weight="500">View All &gt;</text>
+    
+    <!-- Item 1 -->
+    <rect x="0" y="32" width="280" height="150" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="0" y="32" width="280" height="100" rx="8" fill="#334155" />
+    <text x="140" y="85" fill="#94a3b8" font-size="12" text-anchor="middle">[ Episode Thumbnail ]</text>
+    <!-- Progress Bar (65%) -->
+    <rect x="10" y="124" width="260" height="4" rx="2" fill="#475569" />
+    <rect x="10" y="124" width="170" height="4" rx="2" fill="#f97316" />
+    <text x="10" y="152" fill="#ffffff" font-size="13" font-weight="600">Chrono Blades • E12</text>
+    <text x="10" y="170" fill="#94a3b8" font-size="11">14:20 / 23:45 remaining</text>
+
+    <!-- Item 2 -->
+    <rect x="305" y="32" width="280" height="150" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="305" y="32" width="280" height="100" rx="8" fill="#334155" />
+    <text x="445" y="85" fill="#94a3b8" font-size="12" text-anchor="middle">[ Episode Thumbnail ]</text>
+    <!-- Progress Bar (30%) -->
+    <rect x="315" y="124" width="260" height="4" rx="2" fill="#475569" />
+    <rect x="315" y="124" width="80" height="4" rx="2" fill="#f97316" />
+    <text x="315" y="152" fill="#ffffff" font-size="13" font-weight="600">The Last Sorcerer • E4</text>
+    <text x="315" y="170" fill="#94a3b8" font-size="11">07:15 / 24:00 remaining</text>
+
+    <!-- Item 3 -->
+    <rect x="610" y="32" width="280" height="150" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="610" y="32" width="280" height="100" rx="8" fill="#334155" />
+    <text x="750" y="85" fill="#94a3b8" font-size="12" text-anchor="middle">[ Episode Thumbnail ]</text>
+    <!-- Progress Bar (90%) -->
+    <rect x="620" y="124" width="260" height="4" rx="2" fill="#475569" />
+    <rect x="620" y="124" width="235" height="4" rx="2" fill="#f97316" />
+    <text x="620" y="152" fill="#ffffff" font-size="13" font-weight="600">Neo Tokyo Express • E8</text>
+    <text x="620" y="170" fill="#94a3b8" font-size="11">21:05 / 22:50 remaining</text>
+
+    <!-- Item 4 -->
+    <rect x="915" y="32" width="280" height="150" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="915" y="32" width="280" height="100" rx="8" fill="#334155" />
+    <text x="1055" y="85" fill="#94a3b8" font-size="12" text-anchor="middle">[ Episode Thumbnail ]</text>
+    <!-- Progress Bar (15%) -->
+    <rect x="925" y="124" width="260" height="4" rx="2" fill="#475569" />
+    <rect x="925" y="124" width="40" height="4" rx="2" fill="#f97316" />
+    <text x="925" y="152" fill="#ffffff" font-size="13" font-weight="600">Starlight Academy • E1</text>
+    <text x="925" y="170" fill="#94a3b8" font-size="11">03:30 / 23:10 remaining</text>
+  </g>
+
+  <!-- Popular Series Catalogue Grid (FR-3, FR-5) -->
+  <g transform="translate(40, 675)">
+    <text x="0" y="18" fill="#ffffff" font-size="18" font-weight="bold">Popular Series Catalogue</text>
+    
+    <!-- Series Card 1 -->
+    <rect x="0" y="32" width="180" height="140" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="90" y="95" fill="#94a3b8" font-size="12" text-anchor="middle">[ Poster ]</text>
+    <text x="10" y="152" fill="#ffffff" font-size="12" font-weight="bold">Chrono Blades</text>
+    <text x="10" y="166" fill="#94a3b8" font-size="10">Sci-Fi • 24 Ep</text>
+
+    <!-- Series Card 2 -->
+    <rect x="204" y="32" width="180" height="140" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="294" y="95" fill="#94a3b8" font-size="12" text-anchor="middle">[ Poster ]</text>
+    <text x="214" y="152" fill="#ffffff" font-size="12" font-weight="bold">The Last Sorcerer</text>
+    <text x="214" y="166" fill="#94a3b8" font-size="10">Fantasy • 12 Ep</text>
+
+    <!-- Series Card 3 -->
+    <rect x="408" y="32" width="180" height="140" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="498" y="95" fill="#94a3b8" font-size="12" text-anchor="middle">[ Poster ]</text>
+    <text x="418" y="152" fill="#ffffff" font-size="12" font-weight="bold">Neo Tokyo Express</text>
+    <text x="418" y="166" fill="#94a3b8" font-size="10">Cyberpunk • 18 Ep</text>
+
+    <!-- Series Card 4 -->
+    <rect x="612" y="32" width="180" height="140" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="702" y="95" fill="#94a3b8" font-size="12" text-anchor="middle">[ Poster ]</text>
+    <text x="622" y="152" fill="#ffffff" font-size="12" font-weight="bold">Starlight Academy</text>
+    <text x="622" y="166" fill="#94a3b8" font-size="10">Music/School • 12 Ep</text>
+
+    <!-- Series Card 5 -->
+    <rect x="816" y="32" width="180" height="140" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="906" y="95" fill="#94a3b8" font-size="12" text-anchor="middle">[ Poster ]</text>
+    <text x="826" y="152" fill="#ffffff" font-size="12" font-weight="bold">Shadow Ronin</text>
+    <text x="826" y="166" fill="#94a3b8" font-size="10">Action • 26 Ep</text>
+
+    <!-- Series Card 6 -->
+    <rect x="1020" y="32" width="180" height="140" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="1110" y="95" fill="#94a3b8" font-size="12" text-anchor="middle">[ Poster ]</text>
+    <text x="1030" y="152" fill="#ffffff" font-size="12" font-weight="bold">Dragon Alchemist</text>
+    <text x="1030" y="166" fill="#94a3b8" font-size="10">Adventure • 16 Ep</text>
+  </g>
+
+  <!-- Wireframe Annotation Badge -->
+  <rect x="1100" y="840" width="160" height="26" rx="4" fill="#334155" />
+  <text x="1180" y="857" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">WIREFRAME: HOME (FR-3,5)</text>
+</svg>
